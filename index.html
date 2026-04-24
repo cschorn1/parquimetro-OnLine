@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Parquimetro OnLine</title>
-    <script src="script.js" defer></script>
     <link rel="stylesheet" href="estilos.css">
+    <script src="scripts.js" defer></script>
 </head>
 <body>
     <header>
@@ -13,10 +13,27 @@
         <p>Facilite sua vida, pague OnLine, onde e quando quiser!</p>
     </header>
     <main>
+        <h2>Tarifas</h2>
+        <ul>
+            <li>Volto logo: R$1,00 -> Tempo de permanência: 30 minutos</li>
+            <li>Vou demorar: R$1,75 -> Tempo de permanência: 60 minutos</li>
+            <li>Talvez eu volte: R$3,00 -> Tempo de permanência: 120 minutos</li>
+        </ul>
 
+        <input type="number" id="valorPago" placeholder="Digite o valor desejado">
+        <button id="pagar">Pagar</button>
+
+        <p id="tempoPermanencia"></p>
+        <p id="troco"></p>
+
+        <p id="observacao">Tarifa mínima: R$1,00. Valores excedentes serão estornados.</p>
     </main>
-    <footer>
 
+    <footer>
+        <p>&copy;2026 Parquímetro OnLine - Todos os direitos reservados.</p>
+        <p>Conecte-se com o criador:</p>
+        <a href="https://www.linkedin.com/in/conrado-schorn/">LinkedIn</a>
+        <a href="https://www.instagram.com/cschorn_/">Instagram</a>
     </footer>
     
 </body>

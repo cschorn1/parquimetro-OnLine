@@ -1,3 +1,97 @@
 * {
-    margin: 0px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: #000000;
+    background-color: #eeeeee;
+}
+
+header {
+    padding: 20px;
+    background: linear-gradient(160deg, #74ffe8, #000000 ,#4fff44);
+    color: #ffffff;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 35px;
+    margin-top: 10px;
+}
+
+header p{
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+}
+
+main {
+    padding: 25px;
+    margin: 20px auto;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    background-color: #ffffff;
+}
+
+main h2{
+    text-align: center;
+}
+main ul li{
+    list-style: none;
+    margin-top: 8px;
+}
+
+#valorPago {
+    margin-top: 18px;
+    width: 100%;
+    padding: 10px;
+    font-size: 15px;
+}
+
+#pagar {
+    display: block;
+    width: 100%;
+    padding: 12px;
+    margin-top: 5px;
+    background: linear-gradient(175deg, #74ffe8, #4fff44);
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.4s ease;
+}
+
+#pagar:hover {
+    background: linear-gradient(175deg, #2bbfae, #1f9e1f);
+    transform: translateY(-1px);
+    box-shadow: 0 6px 12px rgba(0,0,0,0.2);
+}
+
+#observacao {    
+    padding: 15px;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+footer {
+    background: linear-gradient(175deg, #74ffe8, #000000 ,#4fff44);
+    color: #ffffff;
+    text-align: center;
+}
+
+footer a {
+    padding: 7px;
+    text-decoration: none;
+    color: #ffffff;
+}
+
+footer a:hover {
+    text-decoration: underline;
+    color: #c8e7ca;
 }
